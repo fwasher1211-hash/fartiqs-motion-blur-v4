@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fartiqsmotionblur",
+  "version": "${version}",
+  "name": "Fartiqs Motion Blur",
+  "description": "Motion blur with adjustable options and an aspect ratio changer. Press . (period) to open the menu.",
+  "authors": ["Fartiqs"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fartiqs.motionblur.FartiqsMotionBlur"]
+  },
+  "mixins": ["fartiqsmotionblur.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
